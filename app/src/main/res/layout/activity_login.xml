@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/home_imag"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher" />
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.yangna.lbdsp.widget.ClearEditText
+                android:id="@+id/iphnone"
+                style="@style/edt_match_style"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_60"
+                android:layout_marginRight="@dimen/dp_20"
+                android:background="@drawable/bg_413d3c_r_22"
+                android:drawableLeft="@mipmap/shouji"
+                android:gravity="center_vertical"
+                android:hint="手机号码"
+                android:inputType="number"
+                android:maxLength="11"
+                android:paddingLeft="15dp"
+                android:singleLine="true"
+                android:textCursorDrawable="@null" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_20">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.yangna.lbdsp.widget.ClearEditText
+                        android:id="@+id/yzcode"
+                        style="@style/edt_match_style"
+                        android:layout_marginRight="10sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_413d3c_r_22"
+                        android:drawableLeft="@mipmap/yanzhengma"
+                        android:gravity="center_vertical"
+                        android:hint="验证码"
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:paddingLeft="15dp"
+                        android:singleLine="true"
+                        android:textCursorDrawable="@null" />
+
+                    <Button
+                        android:id="@+id/get_code_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_35"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/bg_f52d2d_r_22"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="获取验证码"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp_12" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_20">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.yangna.lbdsp.widget.ClearEditText
+                        android:id="@+id/promotionCode"
+                        style="@style/edt_match_style"
+                        android:layout_marginRight="10sp"
+                        android:layout_weight="1"
+                        android:background="@drawable/bg_413d3c_r_22"
+                        android:drawableLeft="@mipmap/liwu"
+                        android:gravity="center_vertical"
+                        android:hint="邀请码(选填)"
+                        android:maxLength="11"
+                        android:paddingLeft="15dp"
+                        android:singleLine="true"
+                        android:textCursorDrawable="@null" />
+
+                    <Button
+                        android:id="@+id/scan_code_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp_35"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/bg_413d3c_r_22"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="扫描邀请码"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp_12" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_marginRight="@dimen/dp_5">
+
+                <TextView
+                    android:id="@+id/biaozhu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="已提交过邀请码无需再填写"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/sp_12" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_48"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_55"
+                android:layout_marginRight="@dimen/dp_20"
+                android:background="@drawable/bg_f52d2d_r_22"
+                android:gravity="center"
+                android:text="登录"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_5"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginRight="@dimen/dp_5">
+
+                <TextView
+                    android:id="@+id/register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="未注册的手机号验证后自动注册"
+                    android:textColor="#707070"
+                    android:textSize="@dimen/sp_12" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="center">
+
+                <TextView
+                    style="@style/tv_wrap_style"
+                    android:text="登录即表明您同意"
+                    android:textColor="#707070"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/oil_register_agreement_tv"
+                    style="@style/tv_wrap_style"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:text="《用户协议》"
+                    android:textColor="@color/login_blue"
+                    android:textSize="9sp" />
+
+                <TextView
+                    style="@style/tv_wrap_style"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:text="和"
+                    android:textColor="#707070"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:id="@+id/oil_register_yinsi_tv"
+                    style="@style/tv_wrap_style"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:text="《隐私政策》"
+                    android:textColor="@color/login_blue"
+                    android:textSize="9sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

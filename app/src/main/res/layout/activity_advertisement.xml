@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/ad_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/ad_timer"
+            android:layout_width="90dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="56dp"
+            android:background="@drawable/button_shape_1"
+            android:gravity="center"
+            android:text="跳过 3 s"
+            android:textColor="@color/white"
+            android:textSize="6pt" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/bottom_image"
+        android:layout_width="80dp"
+        android:visibility="gone"
+        android:layout_height="80dp"
+        android:src="@drawable/lbdsp_gw_ewm" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:visibility="gone"
+        android:layout_marginBottom="3dp"
+        android:gravity="center"
+        android:text="广西扬纳网络科技有限公司" />
+
+</LinearLayout>

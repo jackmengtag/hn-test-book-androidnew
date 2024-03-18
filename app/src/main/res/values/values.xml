@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="by_refresh_simple_height">50dp</dimen>
+    <dimen name="by_refresh_simple_margin">12dp</dimen>
+    <dimen name="by_load_more_simple_height">48dp</dimen>
+    <dimen name="by_load_more_simple_margin">10dp</dimen>
+    <dimen name="by_progress_width_height">18dp</dimen>
+
+    <color name="by_footer_text_loading">#333333</color>
+
+    <color name="by_skeleton_shimmer_color">#a2878787</color>
+    <color name="by_skeleton_light_transparent">#16000000</color>
+</resources>

@@ -1,0 +1,16 @@
+package com.yangna.lbdsp.common.utils;
+
+/**
+ * create on 2020-05-21
+ * description 视频控制器点击监听接口
+ */
+public interface OnVideoControllerListener {
+
+    void onHeadClick();
+
+    void onLikeClick();
+
+    void onCommentClick();
+
+    void onShareClick();
+}

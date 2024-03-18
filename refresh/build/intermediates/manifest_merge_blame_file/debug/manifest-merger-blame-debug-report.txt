@@ -1,0 +1,20 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.scwang.smartrefresh.layout"
+4    android:versionCode="1"
+5    android:versionName="unspecified" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\ynproject\liuzhou-yn-video-android\refresh\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\ynproject\liuzhou-yn-video-android\refresh\src\main\AndroidManifest.xml
+10
+11    <application>
+11-->D:\ynproject\liuzhou-yn-video-android\refresh\src\main\AndroidManifest.xml:4:5-7:19
+12
+13        <!-- android:allowBackup="true" -->
+14        <!-- android:supportsRtl="true" -->
+15    </application>
+16
+17</manifest>

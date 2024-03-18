@@ -1,0 +1,100 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">老表短视频</string>
+
+
+    <string name="main_tab_home" translatable="false">首页</string>
+    <string name="main_tab_mall">福利</string>
+    <string name="main_tab_find">发现</string>
+    <string name="main_tab_my">我的</string>
+
+    <string name="tv_cancel">取消</string>
+    <string name="tv_sure">确定</string>
+
+
+    <string name="all_read" translatable="false">全部已读</string>
+    <string name="add_address">添加新地址</string>
+
+    <string name="close" translatable="false">关闭</string>
+
+
+    <string name="call_number">0571-82557735</string>
+    <string name="call_number1" translatable="false">电话：0571-82557735</string>
+    <string name="call_wx">hzyounijia</string>
+    <string name="call_wx1" translatable="false">客服微信：hzyounijia</string>
+    <string name="call_email" translatable="false">a15700151557@163.com</string>
+    <string name="call_email1" translatable="false">邮箱：a15700151557@163.com</string>
+    <string name="free_neither_ubcle_nor_ubc" translatable="false">免费领卡</string>
+    <string name="oil_card_for">领取油卡</string>
+    <string name="buy_now">立即购买</string>
+    <string name="yuan">元</string>
+    <string name="integral">积分</string>
+    <string name="exchange_record">兑换记录</string>
+    <string name="unit_money">￥</string>
+    <string name="integration_rule">积分规则</string>
+    <string name="integral_shopping">积分商城</string>
+    <string name="discount">折</string>
+    <string name="sure_pay_text">确定支付</string>
+    <string name="stock_text">库存</string>
+    <string name="submit_order">提交订单</string>
+    <string name="save">保存</string>
+    <string name="app_new_name">加油之家</string>
+    <string name="title_activity_home_ac_html_web">HomeAcHtmlWebActivity</string>
+    <string name="title_activity_user_privacy">UserPrivacyActivity</string>
+    <string name="title_activity_user_agreement">UserAgreementActivity</string>
+
+
+    <!-- 点赞选中 -->
+    <string name="icon_like_fill">&#xe60d;</string>
+    <!--评论-->
+    <string name="icon_comment">&#xe621;</string>
+    <!-- 微博 -->
+    <string name="icon_weibo">&#xe620;</string>
+    <!-- 微信 -->
+    <string name="icon_wechat">&#xe61d;</string>
+    <!-- 微信朋友圈 -->
+    <string name="icon_friends">&#xe61c;</string>
+    <!-- QQ -->
+    <string name="icon_qq">&#xe61e;</string>
+    <!-- QQ空间 -->
+    <string name="icon_qq_space">&#xe61f;</string>
+    <!-- 更多 -->
+    <string name="icon_more">&#xe61b;</string>
+    <!-- 地理位置 -->
+    <string name="icon_location_fill">&#xe624;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" tools:ignore="MissingTranslation">Hello blank fragment</string>
+
+    <string name="by_header_hint_release">松开刷新</string>
+    <string name="by_refreshing">刷新中…</string>
+    <string name="by_refresh_done">刷新完成</string>
+    <string name="by_footer_loading">努力加载中…</string>
+    <string name="by_footer_no_more">没有更多数据了</string>
+    <string name="by_header_hint_normal">下拉刷新</string>
+
+    <string name="by_footer_load_failed">加载失败，请点我重试</string>
+    <string name="entry" tools:ignore="MissingTranslation">欢迎使用</string>
+    <string name="hello_first_fragment">fs</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
+    <string name="title_activity_add_list">AddListActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="video_time_too_short">拍摄时间太短</string>
+
+
+
+    <string name="rmb_X">¥&#160;%1$.2f</string>
+    <string name="cart">购物车(%1$d)</string>
+    <string name="all_select">全选</string>
+    <string name="edit_done">取消编辑</string>
+    <string name="go_settle_X">去结算(%1$d)</string>
+    <string name="go_settle">去结算</string>
+    <string name="delete_X">删除(%1$d)</string>
+    <string name="total_">合计：</string>
+    <string name="edit">编辑</string>
+    <string name="normal_tip_X">购物车中有 %1$d 件商品已经降价，快去看看</string>
+
+</resources>

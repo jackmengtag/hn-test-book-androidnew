@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_d8"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.wwb.laobiao.address.AddressActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:minHeight="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonadd_iv"
+                android:layout_width="@dimen/dp_200"
+                android:layout_height="@dimen/dp_40"
+                android:background="@color/text_color_FF4D3B"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="添加收货地址"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <Button
+                android:layout_marginTop="@dimen/dp_10"
+                android:id="@+id/buttonok"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_width="@dimen/dp_100"
+                android:layout_height="@dimen/dp_40"
+                android:textSize="16dp"
+                android:text="确定" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

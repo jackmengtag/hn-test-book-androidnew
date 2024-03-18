@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/oil_red2">
+    <TextView
+        android:id="@+id/textView2"
+        android:background="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/videoView"
+        android:textColor="#E53935"
+        android:text="ralTextView" />
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:minHeight="@dimen/dp_20"
+        android:layout_height="match_parent" />
+</RelativeLayout>

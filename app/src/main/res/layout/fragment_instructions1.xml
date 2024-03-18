@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171A23"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/iv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="规则说明"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dp_20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:textColor="@color/white"
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="一、APP的个人中心以星级来较量，星级越高（最高星级20级）商城打折越高、更优惠、并加以免费广告推广置顶的奖励（免费广告以柳州市本地门店数据为准）  二、精英团队长推广人数越多，可以申请成立分公司。每市一家按分公司的业绩四六分成。总公司占四成，分公司占六成。且分公司的广告可由总公司提供技术。  三、创业互助计划。个人中心有20颗星星整齐排列。点亮第1颗星星即可加入本平台的创业互助计划，提升人脉。相互帮助。  那么点亮第2颗星，第3颗星。。。乃至20 颗星有什么要求？又有什么好处呢？   注册老表短视频APP后，点开个人中心-大众创业  大众创业页面会跳出20颗未点亮的星星排列   我们先点亮第1颗，每1颗星星都是逐颗点亮，不可跳级点亮。  您要点亮第1颗星星：  1.在APP里发布一个生活类视频  2.在个人中心-大众创业里点击您的推荐人，通过聊天确认后，就会帮您点亮星星。  3.推荐人的APP就会弹出是否确认帮您点亮第1颗星星的消息提示和操作页面。成功之后，您大众创业会有20颗星星排列。页面的第1颗就是亮着的。  4.页面右下方会跳出一个新的推广链接（二维码）。您分享您的二维码，即可成为一星推荐人。  您想点亮第2颗星星时：  1.在个人中心-大众创业的页面有20颗星星排列。第1颗是亮着的，第2颗至第20颗星星是暗的。此时点击第2颗未点亮的星星。  2.系统会跳出二星级推荐人的聊天窗口，通过聊天，互相加好友（微信、QQ都可以），确认信息后。在微信、支付宝发送20元红包给推荐人  3.推荐人的APP就会弹出是否确认帮您点亮第2颗星星的消息提示和操作页面。成功之后，在您的大众创业会有20颗星星排列。页面的第1颗和第2颗就是亮着的。  4.页面右下方会跳出一个新的推广链接（二维码）。您分享您的二维码，即可成为二星推荐人。  第3.4.5.6.7.8.9.10.......20颗星星点亮同上操作。。。以此类推。  点亮第5颗星时可享受APP商城9.8折优惠  点亮第10颗星时可享受APP商城9.5折优惠  点亮第15颗星时可享受APP商城9折优惠  点亮第20颗星时可享受APP商城8折优惠" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/iv_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="拒绝" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/iv_ok"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="同意" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

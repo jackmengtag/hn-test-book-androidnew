@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/head_iv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:id="@+id/imageView0"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_launcher"
+                            app:riv_oval="true"
+                            app:srcCompat="@drawable/bg_413d3c_r_22" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/imageView01"
+                                app:riv_oval="false"
+                                app:riv_corner_radius="@dimen/dp_40"
+                                android:layout_width="@dimen/dp_55"
+                                android:layout_height="@dimen/dp_55"
+                                android:layout_marginTop="@dimen/dp_15"
+                                android:src="@mipmap/ic_launcher"
+                               tools:ignore="MissingClass" />
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/imageView02"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:scaleType="fitCenter"
+                                android:src="@mipmap/ic_launcher"
+                                app:riv_border_color="#333333"
+                                app:riv_border_width="2dp"
+                                app:riv_corner_radius_top_left="25dp"
+                                app:riv_corner_radius_bottom_right="25dp"
+                                app:riv_mutate_background="true"
+                                app:riv_oval="false"
+                                app:riv_tile_mode="repeat"
+                                 />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/rank10_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/rule_iv"
+                    android:layout_below="@id/head_iv"
+                    android:minHeight="@dimen/dp_42"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="xxx" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rule_iv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rank10_iv"
+                    android:layout_alignParentBottom="true"
+                    android:layout_weight="1"
+                    android:minHeight="@dimen/dp_22"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="textViewxx" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    android:background="@mipmap/guangjuan"
+                    android:orientation="vertical">
+
+                    <com.wwb.laobiao.hongbao.widget.AvatarImageView
+                        android:id="@+id/aiv_left"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="@dimen/dp_50"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginBottom="11dp"
+                        android:src="@drawable/id_014"
+                        app:aiv_BoarderWidth="2dp"
+                        app:aiv_ShowBoarder="false"
+                        app:aiv_TextSizeRatio="0.4" />
+                </RelativeLayout>
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/imageView01t"
+                    app:riv_oval="false"
+                    app:riv_corner_radius="@dimen/dp_40"
+                    android:layout_width="@dimen/dp_55"
+                    android:layout_height="@dimen/dp_55"
+                    android:layout_marginTop="@dimen/dp_15"
+                    android:src="@mipmap/ic_launcher"
+                    tools:ignore="MissingClass" />
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/imageView02t"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_launcher"
+                    app:riv_border_color="#333333"
+                    app:riv_border_width="0dp"
+                    app:riv_corner_radius_top_left="25dp"
+                    app:riv_corner_radius_bottom_right="25dp"
+                    app:riv_mutate_background="true"
+                    app:riv_oval="false"
+                    app:riv_tile_mode="repeat"
+                    />
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_launcher"
+                    app:riv_border_color="#333333"
+                    app:riv_border_width="2dp"
+                    app:riv_oval="true" />
+                <RelativeLayout
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    android:background="@mipmap/guangjuan"
+                    android:orientation="vertical">
+
+                    <com.wwb.laobiao.hongbao.widget.AvatarImageView
+                        android:id="@+id/aiv_0"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="bottom"
+                        android:layout_marginTop="@dimen/dp_50"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginBottom="11dp"
+                        android:src="@drawable/id_014"
+                        app:aiv_BoarderWidth="2dp"
+                        app:aiv_ShowBoarder="false"
+                        app:aiv_TextSizeRatio="0.4" />
+                </RelativeLayout>
+                <com.makeramen.roundedimageview.RoundedImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_launcher"
+                    app:riv_border_color="#333333"
+                    app:riv_border_width="2dp"
+                    app:riv_corner_radius="10dp"
+                    app:riv_mutate_background="true"
+                    app:riv_oval="false"
+                    app:riv_tile_mode="repeat" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_launcher"
+                    app:riv_border_color="#333333"
+                    app:riv_border_width="2dp"
+                    app:riv_corner_radius_top_left="25dp"
+                    app:riv_corner_radius_bottom_right="25dp"
+                    app:riv_mutate_background="true"
+                    app:riv_oval="false"
+                    app:riv_tile_mode="repeat" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_launcher"
+                    app:riv_border_color="#333333"
+                    app:riv_border_width="2dp"
+                    app:riv_corner_radius_top_right="25dp"
+                    app:riv_corner_radius_bottom_left="25dp"
+                    app:riv_mutate_background="true"
+                    app:riv_oval="false"
+                    app:riv_tile_mode="repeat" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="96dp"
+                    android:layout_height="72dp"
+                    android:scaleType="center"
+                    android:src="@mipmap/ic_launcher"
+                    app:riv_border_color="#333333"
+                    app:riv_border_width="2dp"
+                    app:riv_corner_radius="25dp"
+                    app:riv_mutate_background="true"
+                    app:riv_oval="true"
+                    app:riv_tile_mode="repeat" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.scwang.smartrefresh.layout.test" >
+4
+5    <uses-sdk
+5-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:11:5-15:85
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:13:22-53
+13        android:label="Tests for com.scwang.smartrefresh.layout.test"
+13-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:15:22-83
+14        android:targetPackage="com.scwang.smartrefresh.layout.test" />
+14-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:12:22-81
+15
+16    <application
+16-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:7:5-9:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3ed722bdafbc0835fe8c54768a940167\core-1.0.0\AndroidManifest.xml:22:18-86
+18        android:debuggable="true" >
+18-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:8:9-60
+19-->D:\ynproject\liuzhou-yn-video-android\refresh\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5593138980850720563.xml:8:23-57
+20    </application>
+21
+22</manifest>

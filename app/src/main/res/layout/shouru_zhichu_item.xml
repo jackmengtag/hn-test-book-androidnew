@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/shouru_zhichu_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:singleLine="true"
+                android:text="金币自动转入零钱金币自动转入零钱金币自动转入零钱金币自动转入零钱金币自动转入零钱金币自动转入零钱"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/shouru_zhichu_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:singleLine="true"
+                android:text="----年--月--日--:--:--"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/shouru_zhichu_amount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|right"
+            android:textSize="22dp"
+            android:singleLine="true"
+            android:text="+----.--"
+            android:textColor="#09BB07" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

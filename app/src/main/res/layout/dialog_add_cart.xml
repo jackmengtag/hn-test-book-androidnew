@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dayuanjiaobiankuang_baise_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llInner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/dialog_add_cart_rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <ImageView
+                android:id="@+id/dialog_add_cart_iv_main"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/default_icon" />
+
+            <ImageView
+                android:id="@+id/dialog_add_cart_iv_close"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/ic_close_black" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@id/dialog_add_cart_iv_main"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/add_cart_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="商品名称"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/add_cart_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:singleLine="true"
+                    android:text="商品编号"
+                    android:textSize="10dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <!--    <View-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="0.1dp"-->
+        <!--        android:background="#000000" />-->
+
+        <ScrollView
+            android:id="@+id/guige_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.yangna.lbdsp.common.base.AutoFlowLayout
+                    android:id="@+id/afl_cotent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!--    <View-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="0.1dp"-->
+        <!--        android:background="#000000" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/guige_scrollview"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="购买数量"
+                android:textColor="#000000"
+                android:textSize="@dimen/sp_15" />
+
+            <TextView
+                android:id="@+id/add_cart_kuncun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="(库存----件)"
+                android:textSize="@dimen/sp_15" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cart_jianshuliang"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:src="@mipmap/jianhao2" />
+
+                <EditText
+                    android:id="@+id/cart_tianjiashu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_sub_tag"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:numeric="integer"
+                    android:paddingLeft="3dp"
+                    android:paddingRight="3dp"
+                    android:singleLine="true"
+                    android:text="--"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/cart_jiashuliang"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:src="@mipmap/jiahao2" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_add_cart"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/guige_scrollview"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/bt_add_cart"
+                android:layout_width="120dp"
+                android:layout_height="37dp"
+                android:background="@drawable/bg_btn_pink2"
+                android:text="确定添加"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

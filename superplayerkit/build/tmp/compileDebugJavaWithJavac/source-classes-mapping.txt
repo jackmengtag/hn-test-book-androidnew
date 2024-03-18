@@ -1,0 +1,163 @@
+com/tencent/liteav/demo/superplayer/model/SuperPlayer.java
+ com.tencent.liteav.demo.superplayer.model.SuperPlayer
+com/tencent/liteav/demo/superplayer/model/protocol/PlayInfoParserV4.java
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoParserV4
+com/tencent/liteav/demo/superplayer/model/entity/PlayInfoStream.java
+ com.tencent.liteav.demo.superplayer.model.entity.PlayInfoStream
+com/tencent/liteav/demo/superplayer/ui/view/PointSeekBar.java
+ com.tencent.liteav.demo.superplayer.ui.view.PointSeekBar
+ com.tencent.liteav.demo.superplayer.ui.view.PointSeekBar$1
+ com.tencent.liteav.demo.superplayer.ui.view.PointSeekBar$2
+ com.tencent.liteav.demo.superplayer.ui.view.PointSeekBar$3
+ com.tencent.liteav.demo.superplayer.ui.view.PointSeekBar$OnSeekBarChangeListener
+ com.tencent.liteav.demo.superplayer.ui.view.PointSeekBar$OnSeekBarPointClickListener
+ com.tencent.liteav.demo.superplayer.ui.view.PointSeekBar$PointParams
+ com.tencent.liteav.demo.superplayer.ui.view.PointSeekBar$TCPointView
+ com.tencent.liteav.demo.superplayer.ui.view.PointSeekBar$TCThumbView
+com/tencent/liteav/demo/superplayer/ui/player/Player.java
+ com.tencent.liteav.demo.superplayer.ui.player.Player
+ com.tencent.liteav.demo.superplayer.ui.player.Player$Callback
+com/tencent/liteav/demo/superplayer/model/SuperPlayerObserver.java
+ com.tencent.liteav.demo.superplayer.model.SuperPlayerObserver
+com/tencent/liteav/demo/superplayer/model/protocol/PlayInfoProtocolV4.java
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV4
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV4$1
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV4$1$1
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV4$1$2
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV4$2
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV4$3
+com/tencent/liteav/demo/superplayer/ui/player/WindowPlayer.java
+ com.tencent.liteav.demo.superplayer.ui.player.WindowPlayer
+ com.tencent.liteav.demo.superplayer.ui.player.WindowPlayer$1
+ com.tencent.liteav.demo.superplayer.ui.player.WindowPlayer$2
+ com.tencent.liteav.demo.superplayer.ui.player.WindowPlayer$3
+ com.tencent.liteav.demo.superplayer.ui.player.WindowPlayer$4
+ com.tencent.liteav.demo.superplayer.ui.player.WindowPlayer$5
+ com.tencent.liteav.demo.superplayer.ui.player.WindowPlayer$5$1
+ com.tencent.liteav.demo.superplayer.ui.player.WindowPlayer$6
+ com.tencent.liteav.demo.superplayer.ui.player.WindowPlayer$6$1
+ com.tencent.liteav.demo.superplayer.ui.player.WindowPlayer$7
+com/tencent/liteav/demo/superplayer/model/utils/NetWatcher.java
+ com.tencent.liteav.demo.superplayer.model.utils.NetWatcher
+ com.tencent.liteav.demo.superplayer.model.utils.NetWatcher$1
+ com.tencent.liteav.demo.superplayer.model.utils.NetWatcher$2
+com/tencent/liteav/demo/superplayer/model/entity/PlayKeyFrameDescInfo.java
+ com.tencent.liteav.demo.superplayer.model.entity.PlayKeyFrameDescInfo
+com/tencent/liteav/demo/superplayer/SuperPlayerView.java
+ com.tencent.liteav.demo.superplayer.SuperPlayerView
+ com.tencent.liteav.demo.superplayer.SuperPlayerView$1
+ com.tencent.liteav.demo.superplayer.SuperPlayerView$2
+ com.tencent.liteav.demo.superplayer.SuperPlayerView$2$1
+ com.tencent.liteav.demo.superplayer.SuperPlayerView$3
+ com.tencent.liteav.demo.superplayer.SuperPlayerView$4
+ com.tencent.liteav.demo.superplayer.SuperPlayerView$5
+ com.tencent.liteav.demo.superplayer.SuperPlayerView$6
+ com.tencent.liteav.demo.superplayer.SuperPlayerView$OnSuperPlayerViewCallback
+com/tencent/liteav/demo/superplayer/ui/view/VodMoreView.java
+ com.tencent.liteav.demo.superplayer.ui.view.VodMoreView
+ com.tencent.liteav.demo.superplayer.ui.view.VodMoreView$1
+ com.tencent.liteav.demo.superplayer.ui.view.VodMoreView$2
+ com.tencent.liteav.demo.superplayer.ui.view.VodMoreView$Callback
+ com.tencent.liteav.demo.superplayer.ui.view.VodMoreView$VolumeBroadcastReceiver
+com/tencent/liteav/demo/superplayer/ui/player/AbsPlayer.java
+ com.tencent.liteav.demo.superplayer.ui.player.AbsPlayer
+ com.tencent.liteav.demo.superplayer.ui.player.AbsPlayer$1
+com/tencent/liteav/demo/superplayer/SuperPlayerGlobalConfig.java
+ com.tencent.liteav.demo.superplayer.SuperPlayerGlobalConfig
+ com.tencent.liteav.demo.superplayer.SuperPlayerGlobalConfig$Singleton
+ com.tencent.liteav.demo.superplayer.SuperPlayerGlobalConfig$TXRect
+com/tencent/liteav/demo/superplayer/model/protocol/PlayInfoParserV2.java
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoParserV2
+com/tencent/liteav/demo/superplayer/model/entity/SuperPlayerVideoIdV2.java
+ com.tencent.liteav.demo.superplayer.model.entity.SuperPlayerVideoIdV2
+com/tencent/liteav/demo/superplayer/model/protocol/IPlayInfoRequestCallback.java
+ com.tencent.liteav.demo.superplayer.model.protocol.IPlayInfoRequestCallback
+com/tencent/liteav/demo/superplayer/model/entity/EncryptedStreamingInfo.java
+ com.tencent.liteav.demo.superplayer.model.entity.EncryptedStreamingInfo
+com/tencent/liteav/demo/superplayer/ui/view/VideoProgressLayout.java
+ com.tencent.liteav.demo.superplayer.ui.view.VideoProgressLayout
+ com.tencent.liteav.demo.superplayer.ui.view.VideoProgressLayout$1
+ com.tencent.liteav.demo.superplayer.ui.view.VideoProgressLayout$HideRunnable
+com/tencent/liteav/demo/superplayer/ui/view/VolumeBrightnessProgressLayout.java
+ com.tencent.liteav.demo.superplayer.ui.view.VolumeBrightnessProgressLayout
+ com.tencent.liteav.demo.superplayer.ui.view.VolumeBrightnessProgressLayout$1
+ com.tencent.liteav.demo.superplayer.ui.view.VolumeBrightnessProgressLayout$HideRunnable
+com/tencent/liteav/demo/superplayer/model/entity/PlayImageSpriteInfo.java
+ com.tencent.liteav.demo.superplayer.model.entity.PlayImageSpriteInfo
+com/tencent/liteav/demo/superplayer/ui/player/FloatPlayer.java
+ com.tencent.liteav.demo.superplayer.ui.player.FloatPlayer
+com/tencent/liteav/demo/superplayer/BuildConfig.java
+ com.tencent.liteav.demo.superplayer.BuildConfig
+com/tencent/liteav/demo/superplayer/SuperPlayerModel.java
+ com.tencent.liteav.demo.superplayer.SuperPlayerModel
+ com.tencent.liteav.demo.superplayer.SuperPlayerModel$SuperPlayerURL
+com/tencent/liteav/demo/superplayer/model/net/LogReport.java
+ com.tencent.liteav.demo.superplayer.model.net.LogReport
+ com.tencent.liteav.demo.superplayer.model.net.LogReport$1
+ com.tencent.liteav.demo.superplayer.model.net.LogReport$Holder
+com/tencent/liteav/demo/superplayer/SuperPlayerVideoId.java
+ com.tencent.liteav.demo.superplayer.SuperPlayerVideoId
+com/tencent/liteav/demo/superplayer/model/net/HttpURLClient.java
+ com.tencent.liteav.demo.superplayer.model.net.HttpURLClient
+ com.tencent.liteav.demo.superplayer.model.net.HttpURLClient$1
+ com.tencent.liteav.demo.superplayer.model.net.HttpURLClient$2
+ com.tencent.liteav.demo.superplayer.model.net.HttpURLClient$Holder
+ com.tencent.liteav.demo.superplayer.model.net.HttpURLClient$OnHttpCallback
+com/tencent/liteav/demo/superplayer/model/protocol/PlayInfoConstant.java
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoConstant
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoConstant$EncryptedURLType
+com/tencent/liteav/demo/superplayer/model/SuperPlayerImpl.java
+ com.tencent.liteav.demo.superplayer.model.SuperPlayerImpl
+ com.tencent.liteav.demo.superplayer.model.SuperPlayerImpl$1
+ com.tencent.liteav.demo.superplayer.model.SuperPlayerImpl$2
+com/tencent/liteav/demo/superplayer/model/entity/VideoClassification.java
+ com.tencent.liteav.demo.superplayer.model.entity.VideoClassification
+com/tencent/liteav/demo/superplayer/ui/view/VodQualityView.java
+ com.tencent.liteav.demo.superplayer.ui.view.VodQualityView
+ com.tencent.liteav.demo.superplayer.ui.view.VodQualityView$1
+ com.tencent.liteav.demo.superplayer.ui.view.VodQualityView$Callback
+ com.tencent.liteav.demo.superplayer.ui.view.VodQualityView$QualityAdapter
+ com.tencent.liteav.demo.superplayer.ui.view.VodQualityView$QualityItemView
+com/tencent/liteav/demo/superplayer/model/utils/VideoGestureDetector.java
+ com.tencent.liteav.demo.superplayer.model.utils.VideoGestureDetector
+ com.tencent.liteav.demo.superplayer.model.utils.VideoGestureDetector$VideoGestureListener
+com/tencent/liteav/demo/superplayer/model/protocol/IPlayInfoParser.java
+ com.tencent.liteav.demo.superplayer.model.protocol.IPlayInfoParser
+com/tencent/liteav/demo/superplayer/ui/view/DanmuView.java
+ com.tencent.liteav.demo.superplayer.ui.view.DanmuView
+ com.tencent.liteav.demo.superplayer.ui.view.DanmuView$1
+ com.tencent.liteav.demo.superplayer.ui.view.DanmuView$2
+ com.tencent.liteav.demo.superplayer.ui.view.DanmuView$DanmuHandler
+com/tencent/liteav/demo/superplayer/ui/player/FullScreenPlayer.java
+ com.tencent.liteav.demo.superplayer.ui.player.FullScreenPlayer
+ com.tencent.liteav.demo.superplayer.ui.player.FullScreenPlayer$1
+ com.tencent.liteav.demo.superplayer.ui.player.FullScreenPlayer$2
+ com.tencent.liteav.demo.superplayer.ui.player.FullScreenPlayer$3
+ com.tencent.liteav.demo.superplayer.ui.player.FullScreenPlayer$4
+ com.tencent.liteav.demo.superplayer.ui.player.FullScreenPlayer$5
+ com.tencent.liteav.demo.superplayer.ui.player.FullScreenPlayer$HideLockViewRunnable
+com/tencent/liteav/demo/superplayer/model/protocol/IPlayInfoProtocol.java
+ com.tencent.liteav.demo.superplayer.model.protocol.IPlayInfoProtocol
+com/tencent/liteav/demo/superplayer/model/entity/VideoQuality.java
+ com.tencent.liteav.demo.superplayer.model.entity.VideoQuality
+com/tencent/liteav/demo/superplayer/SuperPlayerCode.java
+ com.tencent.liteav.demo.superplayer.SuperPlayerCode
+com/tencent/liteav/demo/superplayer/model/protocol/PlayInfoParams.java
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoParams
+com/tencent/liteav/demo/superplayer/SuperPlayerDef.java
+ com.tencent.liteav.demo.superplayer.SuperPlayerDef
+ com.tencent.liteav.demo.superplayer.SuperPlayerDef$Orientation
+ com.tencent.liteav.demo.superplayer.SuperPlayerDef$PlayerMode
+ com.tencent.liteav.demo.superplayer.SuperPlayerDef$PlayerState
+ com.tencent.liteav.demo.superplayer.SuperPlayerDef$PlayerType
+com/tencent/liteav/demo/superplayer/model/utils/VideoQualityUtils.java
+ com.tencent.liteav.demo.superplayer.model.utils.VideoQualityUtils
+com/tencent/liteav/demo/superplayer/model/entity/ResolutionName.java
+ com.tencent.liteav.demo.superplayer.model.entity.ResolutionName
+com/tencent/liteav/demo/superplayer/model/protocol/PlayInfoProtocolV2.java
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV2
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV2$1
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV2$1$1
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV2$1$2
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV2$2
+ com.tencent.liteav.demo.superplayer.model.protocol.PlayInfoProtocolV2$3

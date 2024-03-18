@@ -1,0 +1,2 @@
+include ':app', ':superplayerkit'
+rootProject.name='老表短视频'

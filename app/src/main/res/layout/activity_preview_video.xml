@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/activity_title" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_20">
+
+        <VideoView
+            android:id="@+id/pv_video"
+            android:layout_width="160dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/video_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请添加视频标题20字以内" />
+
+        <EditText
+            android:id="@+id/video_doc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请添加视频描述20字以内" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

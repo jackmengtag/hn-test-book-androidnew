@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="28dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="52dp"
+                android:layout_height="62dp">
+
+                <com.yangna.lbdsp.widget.CircleImageView
+                    android:id="@+id/iv_head"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:scaleType="centerCrop"
+                    app:es_shape_type="round" />
+
+                <ImageView
+                    android:id="@+id/iv_focus"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:padding="3dp"
+                    android:src="@mipmap/add_focus"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:text=" @大致爱高清"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/gouwuche"
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:background="@mipmap/gouwuche"/>
+        </LinearLayout>
+
+
+        <com.yangna.lbdsp.videoCom.MarqueeTextView
+            android:id="@+id/video_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" @大致爱高清 创作的原生 - 大致爱高清"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:singleLine="false"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="点击详情查看商家店铺"
+            android:textColor="@color/oil_red"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/rl_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.yangna.lbdsp.widget.IconFontTextView
+                android:id="@+id/iv_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/icon_like_fill"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottie_anim"
+                android:layout_width="85dp"
+                android:layout_height="85dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_likecount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-22dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:text="22.5w" />
+
+        <com.yangna.lbdsp.widget.IconFontTextView
+            android:id="@+id/iv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/icon_comment"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/tv_commentcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            tools:text="3823" />
+
+        <com.yangna.lbdsp.widget.IconFontTextView
+            android:id="@+id/iv_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/icon_more"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_sharecount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="gone"
+            tools:text="3371" />
+
+        <RelativeLayout
+            android:id="@+id/rl_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:visibility="invisible"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:id="@+id/iv_record"
+                android:layout_width="58dp"
+                android:layout_height="58dp"
+                android:background="@mipmap/ic_record" />
+
+            <com.yangna.lbdsp.widget.CircleImageView
+                android:id="@+id/iv_head_anim"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_centerInParent="true"
+                app:ease_radius="15dp"
+                app:es_shape_type="round"
+                android:visibility="invisible"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

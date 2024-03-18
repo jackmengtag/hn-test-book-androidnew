@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alivc_common_bg_black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".home.view.HomeFragment"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.androidkun.xtablayout.XTabLayout
+            android:id="@+id/home_tab"
+            android:layout_weight="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            app:tabMode="fixed"
+            app:xTabIndicatorWidth="80dp"
+            app:xTabMode="scrollable"
+            app:xTabSelectedBackgroundColor="@color/black"
+            app:xTabSelectedTextColor="#CCCCCC"
+            app:xTabIndicatorColor="#D3C230"
+            app:xTabSelectedTextSize="22sp"
+            app:xTabTextBold="true"
+            app:tabIndicatorColor="#F10505"
+            app:tabSelectedTextColor="#F10505"
+            app:xTabTextColor="#575555"
+            app:xTabTextSize="18sp" >
+        </com.androidkun.xtablayout.XTabLayout>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/home_vp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </androidx.viewpager.widget.ViewPager>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|left"
+    tools:context="com.shuiying.videomanage.EditVideoActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@+id/view_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.shuiying.videomanage.view.VideoPreviewView
+                android:id="@+id/videoPreviewView"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <com.shuiying.videomanage.view.SyStickerView
+                android:id="@+id/syStickerView"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
